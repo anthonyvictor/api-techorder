@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table td,th{
+    border: .5px solid gray;
+    padding: 5px;
+    
+}
+
+table th{
+    text-align: start;
+    background-color: gainsboro;
+}
+
+table tr{
+width: 100%;
+}
+
+table tr:nth-child(even){
+    background-color: #ffff99;
+}
+table tr:nth-child(odd){
+    background-color: whitesmoke;
+}

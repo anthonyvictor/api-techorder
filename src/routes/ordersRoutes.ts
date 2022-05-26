@@ -4,8 +4,11 @@ import * as controller from "../controllers/ordersController";
 const router = Router()
 
 router.get('/', (req, res) => controller.getALL(req, res))
-router.get('/a', (req, res) => res.send('aa'))
+router.post('/', (req, res) => res.send('aa'))
+router.put('/', (req, res) => res.send('aa'))
+router.patch('/', (req, res) => res.send('aa'))
+router.delete('/', (req, res) => res.send('aa'))
 
-const OrdersRoutes = router
+const AuthRoutes = router
 
-export default OrdersRoutes 
+export default AuthRoutes 
